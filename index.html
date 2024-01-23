@@ -69,12 +69,14 @@
         </nav>
         <!-- Slider -->
         <div class="carousel w-full lg:h-[550px] mt-5">
-            <div id="slide1" class="carousel-item flex relative w-full">
+            <div id="slide1" class="carousel-item lg:flex-row relative w-full">
                 <img src="Images/1.png" class="w-full"/>
-                <div class="absolute bottom-10 right-10 bg-[#131318] h-[100px] w-[500px] p-7 rounded-2xl">
+                
+                <div class="hidden lg:block absolute bottom-10 right-10 bg-[#131318] h-[100px] w-[500px] p-7 rounded-2xl">
                     <h3 class="text-white font-extrabold">Meet all the heroes from the field</h3>
                     <p class="text-[#FFFFFF90]">Description goes here</p>
                 </div>
+                
                     <div class="absolute flex bottom-10 ml-10">
                         <div class="flex flex-col lg:flex-row relative justify-between">
                             <div class="flex lg:absolute gap-4 bottom-4 h-16 w-16">
@@ -117,7 +119,12 @@
 
                 </div>
             </div>
+    
+            </div>
             <!-- Slider -->
+            <div class="bg-[#131318] flex flex-col justify-center items-center bottom-10 mt-7 right-10 h-[100px] w-full p-7 rounded-2xl lg:hidden"> 
+                <h3 class="text-white font-extrabold">Meet all the heroes from the field</h3>
+                <p class="text-[#FFFFFF90]">Description goes here</p>
     </header>
     <main class="md:container md:mx-auto">
         <div class="">
