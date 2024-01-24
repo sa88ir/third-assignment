@@ -188,7 +188,7 @@
             <p class="text-center mb-10 text-[#13131899]">Description goes here</p>
             <hr style="border-bottom: dotted 1px; margin-bottom: 30px;" />
         </div>
-        <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 mx-auto">
+        <div class="grid grid-cols-1 gap-4 overflow-hidden lg:grid-cols-2 mx-auto">
             <div class="card w-full bg-[#13131880] shadow-md image-full">
                 <figure><img src="Images/2.png" alt="" /></figure>
                 <div class="card-body ">
@@ -209,10 +209,10 @@
                     </div>
                 </div>
             </div>
-            <div class=" card w-full bg-[#13131880] shadow-md image-full lg:col-span-2">
+            <div class=" card w-full bg-[#13131880] shadow-md overflow-hidden image-full lg:col-span-2">
                 <figure><img src="Images/4.png" alt="" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title text-white pl-20 pt-40 lg:pl-60">Senior Program</h2>
+                    <h2 class="card-title text-white pl-20 pt-40 lg:pl-60">Professional Program</h2>
                     <p class="pl-20 lg:pl-60">Program Details Here</p>
                     <div class="card-actions justify-items-start p-20 lg:pl-60">
                         <button class="btn bg-hockey-primary border-0 text-white">Register Now!</button>
@@ -437,8 +437,7 @@
                 <p class="text-center mb-10 text-[#13131899]">FAQ goes here</p>
                 <hr style="border-bottom: dotted 1px; margin-bottom: 30px;" />
             </div>
-            <div
-                class="hidden border-2 rounded mx-auto  p-8 grid-cols-1 lg:flex w-[1070px] h-[534px] justify-around gap-10">
+            <div class="hidden border-2 rounded mx-auto  p-8 grid-cols-1 lg:flex w-[1070px] h-[534px] justify-around gap-10">
                 <div>
                     <img src="Images/11.png" alt="Questions">
                 </div>
@@ -558,82 +557,85 @@
 
         <!-- Get In Touch Section Starts -->
 
-        <section class="ml-10 mb-20">
-            <div class="">
-                <hr style="border-top: dotted 1px; margin-top: 30px;" />
-                <h2 class="text-center text-3xl font-extrabold mt-8 mb-4">Get In Touch</h2>
-                <p class="text-center mb-10 text-[#13131899]">Add contact details here</p>
-                <hr style="border-bottom: dotted 1px; margin-bottom: 30px;" />
-            </div>
-
-            <div class="grid grid-cols-1 lg:flex justify-center gap-10">
-                <div class="grid grid-cols-1 gap-8 lg:flex justify-between">
-                    <div class="w-[474px] h-[764px] border-2 rounded flex-col p-12">
-                        <div class="bg-[#BCED6D1A] w-[374px] h-[216px] p-12 mb-3">
-                            <img src="Images/Group-1171275317.png" alt="phone">
-                            <p class="mt-4">Phone Number:</p>
-                            <p class="text-xl font-bold">(+62) 123-321-543</p>
-                        </div>
-                        <div class="bg-[#FDDD5F1A] w-[374px] h-[216px] p-12 mb-3">
-                            <img src="Images/Group-1171275318.png" alt="mail">
-                            <p class="mt-4">E-mail:</p>
-                            <p class="text-xl font-bold">support@hockeys.com</p>
-                        </div>
-                        <div class="bg-[#BCED6D1A] w-[374px] h-[216px] p-12 mt-3">
-                            <img src="Images/Group-1171275321.png" alt="phone">
-                            <p class="mt-4">Location:</p>
-                            <p class="text-xl font-bold">152/1 Mohakhali Wireless Gate</p>
-                        </div>
-    
-                    </div>
-                    <div class="">
-                        <div class="flex flex-col-1 gap-4 lg:flex">
-                            <div class="grid grid-cols-1 p-5 lg:grid-cols-2 gap-20 ml-20">
-                                <div>Your Name
-                                    <br><input type="text" placeholder="Enter Your Full Name"
-                                        class="input input-bordered w-full max-w-xs" />
+        <section class="mb-20">
+                <div class="">
+                    <hr style="border-top: dotted 1px; margin-top: 30px;" />
+                    <h2 class="text-center text-3xl font-extrabold mt-8 mb-4">Get In Touch</h2>
+                    <p class="text-center mb-10 text-[#13131899]">Add contact details here</p>
+                    <hr style="border-bottom: dotted 1px; margin-bottom: 30px;" />
+                </div>
+                <div class="ml-4 lg:ml-40">
+                    <div class="grid grid-cols-1 lg:flex justify-center gap-10">
+                        <div class="grid grid-cols-1 gap-8 lg:flex justify-between">
+                            <div class="w-[355px] h-[694px] border-2 rounded flex-col p-2">
+                                <div class="bg-[#BCED6D1A] w-[334px] h-[216px] p-8 mb-3">
+                                    <img src="Images/Group-1171275317.png" alt="phone">
+                                    <p class="mt-4">Phone Number:</p>
+                                    <p class="text-xl font-bold">(+62) 123-321-543</p>
                                 </div>
-                                <div>Your Email
-                                    <br><input type="text" placeholder="Enter Your E-mail"
-                                        class="input input-bordered w-full max-w-xs" />
+                                <div class="bg-[#FDDD5F1A] w-[334px] h-[216px] p-8 mb-3">
+                                    <img src="Images/Group-1171275318.png" alt="mail">
+                                    <p class="mt-4">E-mail:</p>
+                                    <p class="text-xl font-bold">support@hockeys.com</p>
                                 </div>
-                                <div>Subject
-                                    <br><input type="text" placeholder="Enter Your Subject"
-                                        class="input input-bordered w-full max-w-xs" />
-
+                                <div class="bg-[#BCED6D1A] w-[334px] h-[216px] p-8 mt-3">
+                                    <img src="Images/Group-1171275321.png" alt="phone">
+                                    <p class="mt-4">Location:</p>
+                                    <p class="text-xl font-bold">152/1 Mohakhali Wireless Gate</p>
                                 </div>
-                                <div>Phone Number
-                                    <br><input type="text" placeholder="Enter Your Phone Number"
-                                        class="input input-bordered w-full max-w-xs" />
-
-                                </div>
-                                <div>Message
-                                    <br>
-                                    <div class="lg:hidden">
-                                        <textarea placeholder="Your Message"
-                                            class="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
-
-                                    </div>
-                                    <div>
-                                        <textarea placeholder="Your Message"
-                                            class="hidden lg:block textarea textarea-bordered textarea-lg w-[800px] h-[370px]"></textarea>
-                                    </div>
-
-                                    <div class="bg-[#ff4240] text-white rounded-xl mt-4 text-center lg:hidden">
-                                        Send Message
-                                    </div>
-                                    <div class= "hidden bg-[#ff4240] text-white rounded-2xl mt-4 p-2 text-center ml-20 w-[672px] h-[36px] lg:block">
-                                        Send Message
-                                    </div>
-                                </div>
-                                <div>
-                                    
-                                </div>
+            
                             </div>
-                        </div>
+                            <div class="">
+                                <div class="flex flex-col-1 gap-4 lg:flex">
+                                    <div class="grid grid-cols-1 p-5 ml-2 lg:grid-cols-2 gap-20">
+                                        <div>Your Name
+                                            <br><input type="text" placeholder="Enter Your Full Name"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div>Your Email
+                                            <br><input type="text" placeholder="Enter Your E-mail"
+                                                class="input input-bordered w-full max-w-xs" />
+                                        </div>
+                                        <div>Subject
+                                            <br><input type="text" placeholder="Enter Your Subject"
+                                                class="input input-bordered w-full max-w-xs" />
+        
+                                        </div>
+                                        <div>Phone Number
+                                            <br><input type="text" placeholder="Enter Your Phone Number"
+                                                class="input input-bordered w-full max-w-xs" />
+        
+                                        </div>
+                                        <div>Message
+                                            <br>
+                                            <div class="lg:hidden">
+                                                <textarea placeholder="Your Message"
+                                                    class="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
+        
+                                            </div>
+                                            <div>
+                                                <textarea placeholder="Your Message"
+                                                    class="hidden lg:block textarea textarea-bordered textarea-lg w-[800px] h-[300px]"></textarea>
+                                            </div>
+        
+                                            <div class="bg-[#ff4240] text-white rounded-xl mt-4 text-center lg:hidden">
+                                                Send Message
+                                            </div>
+                                            <div class= "hidden bg-[#ff4240] text-white rounded-2xl mt-4 p-2 text-center ml-20 w-[672px] h-[36px] lg:block">
+                                                Send Message
+                                            </div>
+                                        </div>
+                                        <div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                </div>
+                
+        
         </section>
 
-        <!-- Get In Touch Section Starts -->
+        <!-- Get In Touch Section Ends -->
 
         <!-- Social Section -->
 
